@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "include": [
+    ".eslintrc.js",
+    "test/**/*.ts",
+    "dev/*.ts",
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
+}
